@@ -53,46 +53,7 @@ void figura()
 	double L1[] = { -1, 9, 2 };//Рабочая часть
 	double M1[] = {  1, 9, 2 };//Рабочая часть
 	double N1[] = {  0, 10, 2 };//Навершее
-/*
-	glBegin(GL_TRIANGLE_FAN);
-	glColor4f(1, 0, 0, 0.2);
-	glVertex3dv(A);
-	glVertex3dv(B);
-	glVertex3dv(C);
-	glVertex3dv(D);
-	glVertex3dv(E);
-	glVertex3dv(F);
-	glVertex3dv(A);
-	glVertex3dv(G);
-	glVertex3dv(A);
-	glVertex3dv(H);
-	glVertex3dv(A);
-	glEnd();
 
-	glBegin(GL_TRIANGLE_FAN);
-	glVertex3dv(G);
-	glVertex3dv(A);
-	glVertex3dv(B);
-	glVertex3dv(C);
-	glVertex3dv(D);
-	glVertex3dv(E);
-	glVertex3dv(F);
-	glVertex3dv(G);
-	glEnd();
-
-	glBegin(GL_TRIANGLE_FAN);
-	glVertex3dv(H);
-	glVertex3dv(A);
-	glVertex3dv(B);
-	glVertex3dv(C);
-	glVertex3dv(D);
-	glVertex3dv(E);
-	glVertex3dv(F);
-	glVertex3dv(H);
-	glEnd();
-
-	
-*/
 glBegin(GL_TRIANGLE_FAN);
 	glColor4f(0.41, 0.29, 0, 1);
 	glVertex3dv(A);
